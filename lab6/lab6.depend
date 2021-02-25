@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1614280869 source:c:\users\Макс\desktop\pomoika\ПЦУ\lab6\main.cpp
+	<iostream>
+	<cmath>
+	<chrono>
+	<thread>
+
