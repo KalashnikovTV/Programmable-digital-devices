@@ -1,15 +1,15 @@
 // Код написан для Arduino; Code written for Arduino
 
 // установки:
-voidsetup() {
+void setup() {
     // инициализируем последовательную передачу данных со скоростью 9600 бит в секунду:
     Serial.begin(9600);
 }
 
 // основной цикл:
-voidloop() {
+void loop() {
     // читаем значение на аналоговом входе А0:
-    intsensorValue = analogRead(A0);
+    int sensorValue = analogRead(A0);
     // выводим на монитор считанное значение:
     Serial.println(sensorValue);
     // задержка в промежутке между считываниями для стабильности:
